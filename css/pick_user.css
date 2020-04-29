@@ -8,7 +8,7 @@ body,html {
 }
 
 .user_card {
-  height: 400px;
+  height: 800px;
   width: 350px;
   margin-top: auto;
   margin-bottom: auto;
@@ -39,6 +39,7 @@ body,html {
   width: 250px;
   border-radius: 8%;
 }
+
 .form_container {
   margin-top: 100px;
 }
