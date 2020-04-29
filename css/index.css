@@ -28,7 +28,7 @@ body {
   background-color: #fff;
 }
 
-.material-icons#signup, #monetization_on {
+.material-icons#signup, #monetization_on, #send {
   vertical-align: middle;
 }
 
@@ -2221,9 +2221,9 @@ fieldset:disabled a.btn {
 }
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-right: .6rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -4306,22 +4306,22 @@ a.close.disabled {
 
 .bg-primary#main {
   background-color: black !important;
-  background-image: url(../img/bigwine\ copy.jpeg) !important;
+  background-image: url(../img/index/main.jpeg) !important;
 }
 
 .bg-primary#pricing {
   background-color: black !important;
-  background-image: url(../img/1214black.jpeg) !important;
+  background-image: url(../img/index/pricing.jpeg) !important;
 }
 
 .about#about {
   background-color: black !important;
-  background-image: url(../img/analytics_small_copy.jpg) !important;
+  background-image: url(../img/index/about.jpg) !important;
 }
 
 .page-section#contact {
   background-color: black !important;
-  background-image: url(../img/analytics.jpeg) !important;
+  background-image: url(../img/index/contact.jpeg) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
