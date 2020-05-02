@@ -2269,7 +2269,7 @@ fieldset:disabled a.btn {
   border-radius: 0.5rem;
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
-  text-decoration: none;
+  text-decoration: teal;
 }
 
 .navbar-toggler-icon {
@@ -8370,6 +8370,11 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1c1c1d;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
 }
 
 
