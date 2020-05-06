@@ -61,40 +61,73 @@
                 </div>
                 <div class="col-lg-4 mr-auto" id="b2">
                     <a class="btn btn-outline-secondary btn-lg btn-block" id="button2" type="button" value="Show more"
-                        onclick="showMore2()"><i class="material-icons" id="duplicate_icon">file_copy</i> Duplicate list</a>
+                        onclick="showMore2()"><i class="material-icons" id="duplicate_icon">file_copy</i> Duplicate
+                        list</a>
                 </div>
-                <div id="d3">
-                    <div id="headerNewLists" class="header">
-                        <h4><input type="text" id="listName" placeholder="List name"></h4>
-                        <br><br>
-                        <input type="text" id="myInput" placeholder="New item...">
-                        <span onclick="newElement()" class="addBtn">Add</span>
-                    </div>
-                    <ul id="newListUL">
-                        <li>Wednesday 6th May 2020</li>
-                    </ul>
-                    <br>
-                    <a class="btn btn-success btn-md btn-block text-white text-uppercase text-center" type="button" id="save" href="inventory.html"><i class="material-icons" id="save">save</i> Save</a>
-
+            </div>
+            <div id="d3">
+                <div id="headerNewLists" class="header">
+                    <h4><input type="text" id="listName" placeholder="List name"></h4>
+                    <br><br>
+                    <input type="text" id="myInput" placeholder="New item...">
+                    <span onclick="newElement()" class="addBtn">Add</span>
                 </div>
-                <div id="d4">
-                    <div id="headerLists" class="header">
-                        <h4>All your inventory lists:</h4>
-                    </div>
-                    <ul id="previousListsUL">
-                        <li name="previousListsLI" id="previousListsLI">Supplier 1</li>
-                        <li name="previousListsLI" id="previousListsLI">Supplier 2</li>
-                        <li name="previousListsLI" id="previousListsLI">Weekly list</li>
-                        <li name="previousListsLI" id="previousListsLI">Daily order</li>
-                        <li name="previousListsLI" id="previousListsLI">Weekend order</li>
-                        <li name="previousListsLI" id="previousListsLI">Supplier 3</li>
-                        <li name="previousListsLI" id="previousListsLI">Special order</li>
-                        <li name="previousListsLI" id="previousListsLI">Christmas order</li>
-                        <li name="previousListsLI" id="previousListsLI">Anniversary order</li>
-                        <li name="previousListsLI" id="previousListsLI">Event order</li>
-                    </ul>
+                <ul id="newListUL">
+                    <li>Wednesday 6th May 2020</li>
+                </ul>
+                <br>
+                <a class="btn btn-success btn-md btn-block text-white text-uppercase text-center" type="button"
+                    id="save" href="inventory.html"><i class="material-icons" id="save">save</i> Save</a>
+            </div>
+            <div id="d4">
+                <div id="headerLists">
+                    <h4>All your inventory lists:</h4>
                 </div>
-
+                <ul id="previousListsUL">
+                    <li name="previousListsLI" id="previousListsLI" onclick="showMore3()"><i class="material-icons"
+                            id="duplicate_icon2">file_copy</i> Supplier 1</li>
+                    <li name="previousListsLI" id="previousListsLI" onclick="showMore3()"><i class="material-icons"
+                            id="duplicate_icon2">file_copy</i> Supplier 2</li>
+                    <li name="previousListsLI" id="previousListsLI" onclick="showMore3()"><i class="material-icons"
+                            id="duplicate_icon2">file_copy</i> Weekly list</li>
+                    <li name="previousListsLI" id="previousListsLI" onclick="showMore3()"><i class="material-icons"
+                            id="duplicate_icon2">file_copy</i> Daily order</li>
+                    <li name="previousListsLI" id="previousListsLI" onclick="showMore3()"><i class="material-icons"
+                            id="duplicate_icon2">file_copy</i> Weekend order</li>
+                    <li name="previousListsLI" id="previousListsLI" onclick="showMore3()"><i class="material-icons"
+                            id="duplicate_icon2">file_copy</i> Supplier 3</li>
+                    <li name="previousListsLI" id="previousListsLI" onclick="showMore3()"><i class="material-icons"
+                            id="duplicate_icon2">file_copy</i> Special order</li>
+                    <li name="previousListsLI" id="previousListsLI" onclick="showMore3()"><i class="material-icons"
+                            id="duplicate_icon2">file_copy</i> Christmas order</li>
+                    <li name="previousListsLI" id="previousListsLI" onclick="showMore3()"><i class="material-icons"
+                            id="duplicate_icon2">file_copy</i> Anniversary order</li>
+                    <li name="previousListsLI" id="previousListsLI" onclick="showMore3()"><i class="material-icons"
+                            id="duplicate_icon2">file_copy</i> Event order</li>
+                </ul>
+            </div>
+            <div id="d5">
+                <div id="headerNewLists" class="header">
+                    <h4><input type="text" id="listName" placeholder="List name"></h4>
+                    <br><br>
+                    <input type="text" id="myInput" placeholder="New item...">
+                    <span onclick="newElement()" class="addBtn">Add</span>
+                </div>
+                <ul id="newListUL">
+                    <li>Wednesday 6th May 2020</li>
+                    <li name="newListLI" id="newListLI">Apples</li>
+                    <li name="newListLI" id="newListLI">Oranges</li>
+                    <li name="newListLI" id="newListLI">Fish</li>
+                    <li name="newListLI" id="newListLI">Meat</li>
+                    <li name="newListLI" id="newListLI">Milk</li>
+                    <li name="newListLI" id="newListLI">Eggs</li>
+                    <li name="newListLI" id="newListLI">Paprika</li>
+                    <li name="newListLI" id="newListLI">Salt</li>
+                    <li name="newListLI" id="newListLI">Pepper</li>
+                </ul>
+                <br>
+                <a class="btn btn-success btn-md btn-block text-white text-uppercase text-center" type="button"
+                    id="save" href="inventory.html"><i class="material-icons" id="save">save</i> Save</a>
             </div>
         </div>
     </header>

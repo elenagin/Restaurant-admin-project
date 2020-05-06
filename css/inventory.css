@@ -72,7 +72,7 @@
 
 
 
-#d3, #d4 {
+#d3, #d4, #d5 {
   display: none;
 }
 
@@ -152,12 +152,12 @@ ul#newListUL li#newListLI.checked::before {
   color: white;
 }
 
-/* Style the header */
 #headerNewLists {
   background-color: teal;
   padding: 20px 30px;
   color: white;
   text-align: center;
+
 }
 
 #inventoryMasthead{
@@ -169,7 +169,7 @@ ul#newListUL li#newListLI.checked::before {
   padding-bottom: 10px;
   color: white;
   text-align: center;
-  width: max-content;
+  width: 100%;
 }
 
 /* Clear floats after the header */
@@ -261,12 +261,14 @@ input{
 #button1{
   padding: 20px;
   font-size: 40px;
+  background-color: whitesmoke;
 }
 
 
 #button2{
   padding: 20px;
   font-size: 40px;
+  background-color: whitesmoke;
 }
 
 #new_icon,#duplicate_icon{
@@ -274,12 +276,19 @@ input{
   color: #1abc9c;
 }
 
+#new_icon,#duplicate_icon2{
+  color: #1abc9c;
+}
+
+
 #button1:hover{
   color: whitesmoke;
+  background-color: black;
 }
 
 #button2:hover{
   color: whitesmoke;
+  background-color: black;
 }
 
 #previousListsUL {
@@ -307,6 +316,7 @@ input{
 #previousListsUL #previousListsLI:hover {
   background: #ddd;
 }
-.copyright {
+
+.copyright{
   position: fixed;
 }

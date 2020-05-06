@@ -3,6 +3,9 @@ var button2 = document.getElementById("button2");
 var d3 = document.getElementById("d3");
 var b1 = document.getElementById("b1");
 var b2 = document.getElementById("b2");
+var d4 = document.getElementById("d4");
+var d5 = document.getElementById("d5");
+var copyright = document.getElementsByClassName("copyright");
 
 //Show more after first button
 function showMore() {
@@ -12,6 +15,8 @@ function showMore() {
   b2.style.display = "none";
   d3.style.display = "block";
   d4.style.display = "none";
+  d5.style.display = "none";
+  copyright.style.position = "fixed"
 }
 
 //Show more after second button
@@ -22,6 +27,20 @@ function showMore2() {
   b2.style.display = "none";
   d3.style.display = "none";
   d4.style.display = "block";
+  d5.style.display = "none";
+  copyright.style.position = "fixed"
+}
+
+//Show more after first button
+function showMore3() {
+  button1.style.display = "none";
+  button2.style.display = "none";
+  b1.style.display = "none";
+  b2.style.display = "none";
+  d3.style.display = "none";
+  d4.style.display = "none";
+  d5.style.display = "block";
+  copyright.style.position = "fixed"
 }
 
 // Create a "close" button and append it to each list item
