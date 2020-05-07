@@ -76,6 +76,12 @@
   display: none;
 }
 
+#itemAmount{
+  width: 3rem;
+  padding: 10px;
+  vertical-align: middle;
+  background-color: transparent;
+}
 
 .btn-teal{
   color: white;
@@ -319,4 +325,13 @@ input{
 
 .copyright{
   position: fixed;
+}
+
+.currency {
+  padding-left:12px;
+}
+
+.currency-symbol {
+  position:absolute;
+  padding: 2px 5px;
 }
