@@ -205,3 +205,106 @@ background-color: #bbb;
   background-color: #1abc9c;
   
 }
+
+
+#contact34 input[type="text"],
+#contact34 input[type="url"],
+#contact34 textarea,
+#contact34 button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact34 {
+  background:#0FB9A7  ;
+  padding: 25px;
+  margin-left: 80px;
+  margin-right: 80px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact34 input[type="text"],
+#contact34 input[type="email"],
+#contact34 input[type="url"],
+#contact34 textarea {
+  width: 100%;
+  border: 1px solid #F1FFFD  ;
+  background: transparent;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact34 textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact34 button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #1abc9c;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact34 button[type="submit"]:hover {
+  background: #138b73;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact34 input:focus,
+#contact34 textarea:focus {
+  outline: 0;
+  border: 1px solid#F1FFFD ;
+}
+
+
+@media (max-width: 576px) {
+  #contact34 {
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+}
+
+@media (max-width: 767.98px) {
+  #contact34 {
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+}
+
+@media (max-width: 1100) {
+  #contact34 {
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+}
+
+
+input[type="checkbox"]:checked + label {
+  color: #7B56D4  ;
+  text-align: center;
+}
+
+input[type="checkbox"] + label {
+    font-weight: bold;
+    line-height: 3em;
+    margin: left;
+    color: #ccc;
+}
