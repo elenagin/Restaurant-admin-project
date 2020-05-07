@@ -98,4 +98,19 @@ function newElement() {
       div.style.display = "none";
     }
   }
-} 
+}
+
+// Sample 1
+$(document).ready(function () {
+  $('#currencyButton').click(function () {
+    $('#currencyField').formatCurrency();
+    $('#currencyField').formatCurrency('.currencyLabel');
+  });
+});
+
+// Sample 2
+$(document).ready(function () {
+  $('.currency').blur(function () {
+    $('.currency').formatCurrency();
+  });
+});
