@@ -29,11 +29,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <a class="navbar-brand" href="#">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">Sales</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="sales.html">Sales</a>
                 </a>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#">Create Order</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a
+                            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">New order</a></li>
                     <ul class="navbar-nav">
                         <a class="nav-item dropdown-toggle" href="#" id="user" role="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
@@ -49,7 +49,22 @@
             </div>
         </div>
     </nav>
-    <br><br><br><br><br><br>
+    <header class="masthead bg-primary text-center" id="inventoryMasthead">
+        <div class="container d-flex flex-column">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 id="Receta1" class="card-title">ADD NEW ORDER</h3>
+                    <p>Dish:</p>
+                    <input type="text" placeholder="Insert dish: Ex. Enchiladas of green mole">                 
+                    <br><br>
+                    <p>Price:</p>
+                    <input type="number" placeholder="$00.00">                    
+                    <br>
+                </div>
+                <a href="sales.html" class="btn btn-success">Done</a>
+            </div>
+        </div>
+    </header>
     <!-- Copyright Section-->
     <section class="copyright py-4 text-center text-white">
         <div class="container"><small>Copyright © Restadmin 2020</small></div>

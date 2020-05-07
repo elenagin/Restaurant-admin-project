@@ -2131,6 +2131,7 @@ fieldset:disabled a.btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
@@ -2228,6 +2229,7 @@ fieldset:disabled a.btn {
   line-height: inherit;
   white-space: nowrap;
 }
+
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
@@ -2261,9 +2263,7 @@ fieldset:disabled a.btn {
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
-  line-height: 1;
   background-color: transparent;
   border: 0.125rem solid transparent;
   border-radius: 0.5rem;

@@ -4,66 +4,67 @@
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
   }
-  #adminNav .navbar-brand {
+
+#adminNav .navbar-brand {
     color: #fff;
   }
-  #adminNav .navbar-nav {
+#adminNav .navbar-nav {
     margin-top: 1rem;
   }
-  #adminNav .navbar-nav li.nav-item a.nav-link {
+#adminNav .navbar-nav li.nav-item a.nav-link {
     color: #fff;
   }
-  #adminNav .navbar-nav li.nav-item a.nav-link:hover {
+#adminNav .navbar-nav li.nav-item a.nav-link:hover {
     color: #1abc9c;
   }
-  #adminNav .navbar-nav li.nav-item a.nav-link:active, #adminNav .navbar-nav li.nav-item a.nav-link:focus {
+#adminNav .navbar-nav li.nav-item a.nav-link:active, #adminNav .navbar-nav li.nav-item a.nav-link:focus {
     color: #fff;
   }
-  #adminNav .navbar-nav li.nav-item a.nav-link.active {
+#adminNav .navbar-nav li.nav-item a.nav-link.active {
     color: #1abc9c;
   }
-  #adminNav .navbar-toggler {
+#adminNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem;
   }
   
-  @media (min-width: 992px) {
-    #adminNav {
+@media (min-width: 992px) {
+#adminNav {
       padding-top: 0.8rem;
       padding-bottom: 0.8rem;
       transition: padding-top 0.3s, padding-bottom 0.3s;
     }
-    #adminNav .navbar-brand {
+#adminNav .navbar-brand {
       font-size: 1.75em;
       transition: font-size 0.3s;
     }
-    #adminNav .navbar-nav {
+#adminNav .navbar-nav {
       margin-top: 0;
     }
-    #adminNav .navbar-nav > li.nav-item > a.nav-link.active {
+#adminNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: #fff;
       background: #1abc9c;
     }
-    #adminNav .navbar-nav > li.nav-item > a.nav-link.active:active, #adminNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #adminNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+#adminNav .navbar-nav > li.nav-item > a.nav-link.active:active, #adminNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #adminNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
       color: #fff;
       background: #1abc9c;
     }
   
-    #adminNav.navbar-shrink {
+#adminNav.navbar-shrink {
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
     }
-    #adminNav.navbar-shrink .navbar-brand {
+#adminNav.navbar-shrink .navbar-brand {
       font-size: 1.5em;
     }
   }
   
-  .bg-primary#createList {
+.bg-primary#createList {
     /*background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
     background: radial-gradient(linear, whitesmoke, rgb(148, 233, 208) 100%);
   }
   
-  .dropdown-menu{
+.dropdown-menu{
   position: fixed;
   right: 0;
   left: auto;
@@ -71,32 +72,32 @@
   background-color: black;
   }
   
-  .dropdown-item{
+.dropdown-item{
   color: teal;
   }
   
   
   
-  #d3 {
+#d3 {
   display: none;
   }
   
-  .btn-teal{
+.btn-teal{
   color: white;
   background-color: teal;
   }
   
   
   
-  /* Remove margins and padding from the list */
-  ul#myUL {
+/* Remove margins and padding from the list */
+ul#myUL {
   margin: 0;
   padding: 0;
   list-style-type: none;
   }
   
-  /* Style the list items */
-  ul#myUL li#myLI {
+/* Style the list items */
+ul#myUL li#myLI {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
@@ -112,24 +113,24 @@
   }
   
   /* Set all odd list items to a different color (zebra-stripes) */
-  ul#myUL li#myLI:nth-child(odd) {
+ul#myUL li#myLI:nth-child(odd) {
   background: #f9f9f9;
   }
   
   /* Darker background-color on hover */
-  ul#myUL li#myLI:hover {
+ul#myUL li#myLI:hover {
   background: #ddd;
   }
   
   /* When clicked on, add a background color and strike out text */
-  ul#myUL input#price li#myLI.checked {
+ul#myUL input#price li#myLI.checked {
   background: #888;
   color: #fff;
   text-decoration: line-through;
   }
   
   /* Add a "checked" mark when clicked on */
-  ul#myUL li#myLI.checked::before {
+ ul#myUL li#myLI.checked::before {
   content: '';
   position: absolute;
   border-color: #fff;
@@ -156,7 +157,7 @@
   }
   
   /* Style the header */
-  #myDIV {
+#myDIV {
   background-color: teal;
   padding: 30px 40px;
   color: white;
@@ -164,14 +165,14 @@
   }
   
   /* Clear floats after the header */
-  .header:after {
+.header:after {
   content: "";
   display: table;
   clear: both;
   }
   
   /* Style the input */
-  input{
+input{
   margin: 0;
   border: none;
   border-radius: 0;
@@ -182,7 +183,7 @@
   }
   
   /* Style the "Add" button */
-  .addBtn {
+.addBtn {
   padding: 10px;
   width: 25%;
   background: #d9d9d9;
@@ -195,7 +196,7 @@
   border-radius: 0;
   }
 
-  #main_section{
+#main_section{
     margin: 10px;
   }
   
@@ -213,15 +214,37 @@
     color: green;
   }
 
-  .c_red{
+ .c_red{
     color: crimson;
   }
 
-  .c_blue{
+.c_blue{
     color: teal;
   }
 
-  .c_gold{
+.c_gold{
     color: goldenrod;
   }
 
+#navAdminText{
+  color: #1abc9c;
+  }
+
+#user{
+    color: #1abc9c;
+  }
+
+.bg-teal {
+    background-color: #1abc9c;
+}
+  
+
+  a.bg-primary:hover, a.bg-primary:focus,
+  button.bg-primary:hover,
+  button.bg-primary:focus {
+    background-color: #148f77 !important;
+  }
+  
+  .material-icons{
+    vertical-align: middle;
+  }

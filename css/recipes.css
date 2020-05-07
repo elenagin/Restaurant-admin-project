@@ -216,7 +216,7 @@ background-color: #bbb;
 }
 
 #contact34 {
-  background:#0FB9A7  ;
+  background:rgba(63, 184, 172, 0.829)  ;
   padding: 25px;
   margin-left: 80px;
   margin-right: 80px;
@@ -312,9 +312,7 @@ input[type="checkbox"] + label {
 
 
 #cbox {
-  
-  background-color: #1abc9c;
+
   vertical-align: middle;
-  
 }
 H1 { text-align: center}

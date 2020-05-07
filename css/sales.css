@@ -58,11 +58,6 @@
   }
 }
 
-.bg-primary#createList {
-  /*background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
-  background: radial-gradient(linear, whitesmoke, rgb(148, 233, 208) 100%);
-}
-
 .dropdown-menu{
 position: fixed;
 right: 0;
@@ -77,8 +72,15 @@ color: teal;
 
 
 
-#d3 {
+#d3, #d4, #d5 {
 display: none;
+}
+
+#itemAmount{
+width: 4rem;
+padding: 10px;
+vertical-align: middle;
+background-color: transparent;
 }
 
 .btn-teal{
@@ -89,20 +91,21 @@ background-color: teal;
 
 
 /* Remove margins and padding from the list */
-ul#myUL {
+ul#newListUL {
 margin: 0;
 padding: 0;
 list-style-type: none;
 }
 
 /* Style the list items */
-ul#myUL li#myLI {
+ul#newListUL li#newListLI {
 cursor: pointer;
 position: relative;
 padding: 12px 8px 12px 40px;
 background: #eee;
 font-size: 18px;
 transition: 0.2s;
+text-align: left;
 
 /* make the list items unselectable */
 -webkit-user-select: none;
@@ -112,24 +115,24 @@ user-select: none;
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
-ul#myUL li#myLI:nth-child(odd) {
+ul#newListUL li#newListLI:nth-child(odd) {
 background: #f9f9f9;
 }
 
 /* Darker background-color on hover */
-ul#myUL li#myLI:hover {
+ul#newListUL li#newListLI:hover {
 background: #ddd;
 }
 
 /* When clicked on, add a background color and strike out text */
-ul#myUL input#price li#myLI.checked {
+ul#newListUL input#price li#newListLI.checked {
 background: #888;
 color: #fff;
 text-decoration: line-through;
 }
 
 /* Add a "checked" mark when clicked on */
-ul#myUL li#myLI.checked::before {
+ul#newListUL li#newListLI.checked::before {
 content: '';
 position: absolute;
 border-color: #fff;
@@ -155,12 +158,23 @@ background-color: teal;
 color: white;
 }
 
-/* Style the header */
-#myDIV {
+#headerNewLists {
 background-color: teal;
-padding: 30px 40px;
+padding: 20px 30px;
 color: white;
 text-align: center;
+}
+
+#inventoryMasthead{
+padding-top: calc(6rem + 10px);
+}
+#headerLists {
+background-color: teal;
+padding: 20px;
+padding-bottom: 10px;
+color: white;
+text-align: center;
+width: 100%;
 }
 
 /* Clear floats after the header */
@@ -181,6 +195,15 @@ float: left;
 font-size: 16px;
 }
 
+#listName{
+background-color: transparent;
+margin-bottom: 0.5rem;
+font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-weight: 700;
+line-height: 1.2;
+color: white;
+}
+
 /* Style the "Add" button */
 .addBtn {
 padding: 10px;
@@ -197,4 +220,113 @@ border-radius: 0;
 
 .addBtn:hover {
 background-color: #bbb;
+}
+
+.material-icons{
+vertical-align: bottom;
+}
+
+#save{
+color: whitesmoke;
+}
+
+#new_icon{
+color: #1abc9c;
+}
+
+.masthead {
+padding-top: calc(6rem + 74px);
+padding-bottom: 6rem;
+}
+.masthead .masthead-heading {
+font-size: 2.75rem;
+line-height: 2.75rem;
+}
+.masthead .masthead-subheading {
+font-size: 1.25rem;
+}
+.masthead .masthead-avatar {
+width: 15rem;
+}
+
+@media (min-width: 992px) {
+.masthead {
+  padding-top: calc(6rem + 104px);
+  padding-bottom: 6rem;
+}
+.masthead .masthead-heading {
+  font-size: 4rem;
+  line-height: 3.5rem;
+}
+.masthead .masthead-subheading {
+  font-size: 1.5rem;
+}
+}
+
+#button1{
+padding: 20px;
+font-size: 40px;
+background-color: whitesmoke;
+}
+
+
+#button2{
+padding: 20px;
+font-size: 40px;
+background-color: whitesmoke;
+}
+
+#new_icon,#duplicate_icon{
+font-size: 50px;
+color: #1abc9c;
+}
+
+#new_icon,#duplicate_icon2{
+color: #1abc9c;
+}
+
+
+#button1:hover{
+color: whitesmoke;
+background-color: black;
+}
+
+#button2:hover{
+color: whitesmoke;
+background-color: black;
+}
+
+#previousListsUL {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#previousListsUL #previousListsLI {
+cursor: pointer;
+position: relative;
+padding: 8px 4px 8px 20px;
+background: #eee;
+font-size: 18px;
+transition: 0.2s;
+text-align: left;
+}
+
+
+#previousListsUL #previousListsLI:nth-child(odd) {
+background: #f9f9f9;
+}
+
+
+#previousListsUL #previousListsLI:hover {
+background: #ddd;
+}
+
+.copyright{
+position: fixed;
+}
+
+
+p{
+  text-align: left;
 }

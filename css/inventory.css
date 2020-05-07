@@ -77,7 +77,7 @@
 }
 
 #itemAmount{
-  width: 3rem;
+  width: 4rem;
   padding: 10px;
   vertical-align: middle;
   background-color: transparent;
@@ -163,7 +163,6 @@ ul#newListUL li#newListLI.checked::before {
   padding: 20px 30px;
   color: white;
   text-align: center;
-
 }
 
 #inventoryMasthead{
@@ -327,11 +326,3 @@ input{
   position: fixed;
 }
 
-.currency {
-  padding-left:12px;
-}
-
-.currency-symbol {
-  position:absolute;
-  padding: 2px 5px;
-}

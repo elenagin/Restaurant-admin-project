@@ -24,36 +24,50 @@
                 <img src="img/logos/restadmin.png" alt="">
             </a>
             <button
-                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-teal text-white rounded"
                 type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">Menu <i class="material-icons">menu</i></button>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
+                <a class="navbar-brand" href="#">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="admin.html" id="navAdminText">Administrator</a>
+                </a>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#">Home</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="../index.html" style="color: turquoise;">Logout</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a
+                        class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="admin.html">Administrator </a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a
+                            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="inventory.html">Inventory </a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a
+                            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="recipes.html">Recipes </a></li>
+                    <ul class="navbar-nav">
+                        <a class="nav-item dropdown-toggle" href="#" id="user" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <img src="../img/logos/profile.png" width="45" id="profile">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="user">
+                            <a class="dropdown-item" href="#">My Account</a>
+                            <a class="dropdown-item" href="#">Help</a>
+                            <a class="dropdown-item" href="../index.html">Logout</a>
+                        </div>
+                    </ul>
                 </ul>
             </div>
         </div>
     </nav>
     <br><br><br><br>
     <section id="main_section">
-        <h2>Administrador</h2>
-        <br>
-        <h4>Perfiles Activos  <small class="c_green"><i class="fas fa-plus-circle"></i></small></h4>
+        <h4>Perfiles Activos <small class="c_green"><i class="fas fa-plus-circle"></i></small></h4>
         <table class="table table-striped table-bordered">
             <thead class="thead-dark">
                 <tr>
-                    <th rowspan="2" class="center_me">Nombre</th>
-                    <th colspan="2" class="center_me">Permisos de escritura</th>
-                    <th rowspan="2" class="center_me">Ver más</th>
-                    <th rowspan="2" class="center_me">Modificar</th>
+                    <th rowspan="2" class="center_me">Name</th>
+                    <th colspan="2" class="center_me">Read permission</th>
+                    <th rowspan="2" class="center_me">Show more</th>
+                    <th rowspan="2" class="center_me">Modify</th>
                 </tr>
                 <tr>
-                    <th class="center_me">Recetario</th>
-                    <th class="center_me">Invenatrio</th>
+                    <th class="center_me">Recipes</th>
+                    <th class="center_me">Inventory</th>
                 </tr>
             </thead>
             <tbody>
@@ -93,68 +107,68 @@
         </table>
 
         <br>
-        <h4>Historial Cambios</h4>
+        <h4>History of changes</h4>
         <table class="table table-striped table-bordered table-hover table-responsive table-sm">
             <thead class="thead-dark">
                 <tr>
-                    <th class="center_me">Fecha</th>
-                    <th class="center_me">Área</th>
-                    <th class="center_me">Movimiento</th>
+                    <th class="center_me">Date</th>
+                    <th class="center_me">Area</th>
+                    <th class="center_me">Movement</th>
                     <th class="center_me">Responsable</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="center_me">4 Mayo</td>
-                    <td class="center_me">Recetario</td>
-                    <td>Cambio a la receta Enchiladas de Mole</td>
+                    <td class="center_me">4 May</td>
+                    <td class="center_me">Recipes</td>
+                    <td>Changed Enchiladas de Mole recipe</td>
                     <td class="center_me">Fernanda Guzmán Torres</td>
                 </tr>
 
                 <tr>
-                    <td class="center_me">4 Mayo</td>
-                    <td class="center_me">Recetario</td>
-                    <td>Cambio a la receta Pollo Enmolado</td>
+                    <td class="center_me">4 May</td>
+                    <td class="center_me">Recipes</td>
+                    <td>Changed Pollo Enmolado recipe</td>
                     <td class="center_me">Fernanda Guzmán Torres</td>
                 </tr>
 
                 <tr>
-                    <td class="center_me">4 Mayo</td>
-                    <td class="center_me">Inventario</td>
-                    <td>Cambio de precio del producto Chile Pasilla</td>
+                    <td class="center_me">4 May</td>
+                    <td class="center_me">Inventory</td>
+                    <td>Changed price of Chile Pasilla product</td>
                     <td class="center_me">Ricardo Sandoval Miranda</td>
                 </tr>
 
                 <tr>
-                    <td class="center_me">1 Mayo</td>
-                    <td class="center_me">Recetario</td>
-                    <td>Cambio a la receta Pozole Blanco</td>
+                    <td class="center_me">1 May</td>
+                    <td class="center_me">Recipes</td>
+                    <td>Changed Pozole Blanco recipe</td>
                     <td class="center_me">Fernanda Guzmán Torres</td>
                 </tr>
 
                 <tr>
-                    <td class="center_me">1 Mayo</td>
-                    <td class="center_me">Inventario</td>
-                    <td>Cambio de proveedor del producto Cebolla</td>
+                    <td class="center_me">1 May</td>
+                    <td class="center_me">Inventory</td>
+                    <td>Changed supplier of Onion</td>
                     <td class="center_me">Victor</td>
                 </tr>
 
                 <tr>
-                    <td class="center_me">1 Mayo</td>
-                    <td class="center_me">Inventario</td>
-                    <td>Cambio de proveedor del producto Jitomate</td>
+                    <td class="center_me">1 May</td>
+                    <td class="center_me">Inventory</td>
+                    <td>Changed supplier of Tomato</td>
                     <td class="center_me">Victor</td>
                 </tr>
 
                 <tr>
-                    <td class="center_me">1 Mayo</td>
-                    <td class="center_me">Inventario</td>
-                    <td>Cambio de proveedor del producto Tomate</td>
+                    <td class="center_me">1 May</td>
+                    <td class="center_me">Inventory</td>
+                    <td>Changed supplier of Tomato</td>
                     <td class="center_me">Victor</td>
                 </tr>
 
                 <tr>
-                    <td colspan="4" class="center_me">Ver más</td>
+                    <td colspan="4" class="center_me">Show more</td>
                 </tr>
 
             </tbody>
@@ -162,14 +176,14 @@
 
         <br>
 
-        <h4>Proveedores <small class="c_green"><i class="fas fa-plus-circle"></i></small></h4>
+        <h4>Suppliers <small class="c_green"><i class="fas fa-plus-circle"></i></small></h4>
         <table class="table table-striped table-bordered table-responsive">
             <thead class="thead-dark">
                 <tr>
-                    <th class="center_me">Nombre</th>
-                    <th class="center_me">Telefono</th>
-                    <th class="center_me">Ver más</th>
-                    <th class="center_me">Modificar</th>
+                    <th class="center_me">Name</th>
+                    <th class="center_me">Telephone</th>
+                    <th class="center_me">Show more</th>
+                    <th class="center_me">Modify</th>
                 </tr>
             </thead>
             <tbody>
@@ -195,38 +209,11 @@
                 </tr>
             </tbody>
         </table>
+        <br>
     </section>
-    <!-- Footer-->
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <!-- Footer Location-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Location</h4>
-                    <p class="lead mb-0">CDMX<br />Mexico City</p>
-                </div>
-                <!-- Footer Social Icons-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/"><i
-                            class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1"
-                        href="https://twitter.com/"><i class="fab fa-fw fa-twitter"></i></a><a
-                        class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/feed/"><i
-                            class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1"
-                        href="https://www.instagram.com/"><i class="fab fa-fw fa-instagram"></i></a>
-                </div>
-                <!-- Footer About Text-->
-                <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">About Restadmin</h4>
-                    <p class="lead mb-0">Restadmin is a free to use automated dashboard for restaurant managers.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
     <!-- Copyright Section-->
     <section class="copyright py-4 text-center text-white">
-        <div class="container"><small>Copyright © Restadmin 2020&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Photos: Unsplash,
-                Pexels</small></div>
+        <div class="container"><small>Copyright © Restadmin 2020</small></div>
     </section>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
     <div class="scroll-to-top d-lg-none position-fixed">
@@ -241,4 +228,3 @@
 </body>
 
 </html>
-  
