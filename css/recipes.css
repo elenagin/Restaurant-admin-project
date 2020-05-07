@@ -204,6 +204,7 @@ background-color: #bbb;
   color:pink;
   background-color: #1abc9c;
   
+  
 }
 
 
@@ -308,3 +309,12 @@ input[type="checkbox"] + label {
     margin: left;
     color: #ccc;
 }
+
+
+#cbox {
+  
+  background-color: #1abc9c;
+  vertical-align: middle;
+  
+}
+H1 { text-align: center}
